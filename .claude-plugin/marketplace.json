@@ -1,0 +1,15 @@
+{
+  "name": "structure-reviewer",
+  "description": "Marketplace for the structure-reviewer plugin, which forecasts spaghetti-code risk in a repo or diff.",
+  "owner": {
+    "name": "Samandar",
+    "email": "samandarodilboyev@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "structure-reviewer",
+      "source": "./",
+      "description": "Assesses code structure and architecture health, forecasting spaghetti-code risk with a 1-10 score and per-dimension evidence-backed breakdown."
+    }
+  ]
+}

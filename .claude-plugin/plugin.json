@@ -1,0 +1,10 @@
+{
+  "name": "structure-reviewer",
+  "version": "1.0.0",
+  "description": "Assesses code structure and architecture health, forecasting spaghetti-code risk with a 1-10 score and per-dimension evidence-backed breakdown.",
+  "author": {
+    "name": "Samandar",
+    "email": "samandarodilboyev@gmail.com"
+  },
+  "repository": "https://github.com/odilboyev/structure-reviewer-plugin"
+}
