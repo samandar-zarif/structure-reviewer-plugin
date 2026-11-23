@@ -113,7 +113,7 @@ Each finding follows the same shape: **problem** (the structural smell) → **fo
 ## Install
 
 ```
-claude plugin marketplace add odilboyev/structure-reviewer-plugin
+claude plugin marketplace add samandar-zarif/structure-reviewer-plugin
 claude plugin install structure-reviewer@structure-reviewer
 ```
 
