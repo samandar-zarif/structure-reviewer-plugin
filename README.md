@@ -6,7 +6,7 @@ Unlike a line-level code review, `structure-reviewer` doesn't look for bugs. It 
 
 ## What it does
 
-The agent evaluates 10 structural dimensions (coupling & dependency direction, cohesion, file/function size, duplication, global mutable state, control-flow complexity, naming, layering, testability, and churn/hotspot correlation), weighting recently-touched code more heavily. It works from concrete evidence — `file:line` references, import graphs, size counts — not vibes, and is strictly read-only (`Read`, `Grep`, `Glob`, `Bash`).
+The agent evaluates 10 structural dimensions (coupling & dependency direction, cohesion, file/function size, duplication, global mutable state, control-flow complexity, naming, layering, testability, and churn/hotspot correlation), weighting recently-touched code more heavily. It works from concrete evidence — `file:line` references, import graphs, size counts — not vibes, and is instructed to stay read-only (`Read`, `Grep`, `Glob`, `Bash`).
 
 Output includes:
 
